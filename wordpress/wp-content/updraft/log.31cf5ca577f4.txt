@@ -1,0 +1,205 @@
+0000.007 () Opened log file at time: Sun, 24 Sep 2023 23:12:03 +0000 on http://localhost:8080
+0000.010 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.0.30 (apache2handler, Linux 6dab1e51db09 6.3.13-linuxkit #1 SMP PREEMPT_DYNAMIC Thu Sep  7 07:54:49 UTC 2023 x86_64) MySQL: 5.7.43 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.56 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 6M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 340494.7 MB
+0000.082 () Restore setup, now closing connection and starting restore over AJAX.
+0000.015 () Opened log file at time: Sun, 24 Sep 2023 23:12:04 +0000 on http://localhost:8080
+0000.019 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.0.30 (apache2handler, Linux 6dab1e51db09 6.3.13-linuxkit #1 SMP PREEMPT_DYNAMIC Thu Sep  7 07:54:49 UTC 2023 x86_64) MySQL: 5.7.43 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.56 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.9M | 6M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.020 () Free space on disk containing Updraft's temporary directory: 340494.7 MB
+0000.024 () Ensuring WP_Filesystem is setup for a restore
+0000.034 () WP_Filesystem is setup and ready for a restore
+0000.041 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_nfd_data_event_queue","wp_sgs_log_events","wp_sgs_log_visitors","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.066 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.129 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.139 () Entity: db
+0000.140 () restore_backup(backup_file=backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-db.gz, type=db, info=a:0:{}, last_one=)
+0000.141 () Unpacking backup... (backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-db.gz, 0.1 Mb)
+0000.142 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.155 () Database successfully unpacked
+0000.156 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.164 () Using direct MySQL access; value of use_mysqli is: 1
+0000.171 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.324 () Tried to raise max_allowed_packet from 4 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.328 () Max packet size: 4 MB
+0000.331 () Entering maintenance mode
+0000.333 () Enabling Maintenance mode&#8230;
+0000.402 () Backup of: https://dyneam.com
+0000.514 () Content URL: https://dyneam.com/wp-content
+0000.518 () Uploads URL: https://dyneam.com/wp-content/uploads
+0000.521 () Old table prefix: wp_
+0000.523 () Old ABSPATH: /home3/hpdlfqmy/public_html/dyneam/
+0000.524 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.525 () Site information: multisite=0
+0000.526 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.529 () New table prefix: x3_
+0000.546 () Processing table (InnoDB): wp_options - will restore as: x3_options
+0000.922 () Atomic restore: dropping original table (wp_options)
+0000.943 () Atomic restore: renaming new table (x3_options) to final table name (wp_options)
+0000.960 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0001.548 () Search and replacing table: wp_options: rows: 387
+0001.571 () Incomplete object detected in database: SiteGround_Migrator\Files_Service\Files_Service; Search and replace will be skipped for these entries
+0001.573 () Incomplete object detected in database: SiteGround_Migrator\Database_Service\Database_Service; Search and replace will be skipped for these entries
+0001.573 () Incomplete object detected in database: SiteGround_Migrator\Transfer_Service\Transfer_Service; Search and replace will be skipped for these entries
+0001.614 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0001.625 () Processing table (InnoDB): wp_users - will restore as: x3_users
+0001.724 () Atomic restore: dropping original table (wp_users)
+0001.740 () Atomic restore: renaming new table (x3_users) to final table name (wp_users)
+0001.784 () Search and replacing table: wp_users: rows: 2
+0001.791 () Processing table (InnoDB): wp_usermeta - will restore as: x3_usermeta
+0001.878 () Atomic restore: dropping original table (wp_usermeta)
+0001.915 () Atomic restore: renaming new table (x3_usermeta) to final table name (wp_usermeta)
+0001.954 () Search and replacing table: wp_usermeta: rows: 80
+0001.964 () Incomplete object detected in database: Yoast\WP\SEO\Presenters\Admin\Indexing_Notification_Presenter; Search and replace will be skipped for these entries
+0001.967 () Processing table (InnoDB): wp_commentmeta - will restore as: x3_commentmeta
+0002.041 () Atomic restore: dropping original table (wp_commentmeta)
+0002.055 () Atomic restore: renaming new table (x3_commentmeta) to final table name (wp_commentmeta)
+0002.092 () Search and replacing table: wp_commentmeta: rows: 0
+0002.094 () Processing table (InnoDB): wp_comments - will restore as: x3_comments
+0002.225 () Atomic restore: dropping original table (wp_comments)
+0002.251 () Atomic restore: renaming new table (x3_comments) to final table name (wp_comments)
+0002.277 () Search and replacing table: wp_comments: rows: 9
+0002.283 () Processing table (InnoDB): wp_links - will restore as: x3_links
+0002.355 () Atomic restore: dropping original table (wp_links)
+0002.380 () Atomic restore: renaming new table (x3_links) to final table name (wp_links)
+0002.434 () Search and replacing table: wp_links: rows: 0
+0002.437 () Processing table (InnoDB): wp_postmeta - will restore as: x3_postmeta
+0002.547 () Atomic restore: dropping original table (wp_postmeta)
+0002.566 () Atomic restore: renaming new table (x3_postmeta) to final table name (wp_postmeta)
+0002.599 () Search and replacing table: wp_postmeta: rows: 7
+0002.613 () Processing table (InnoDB): wp_posts - will restore as: x3_posts
+0002.715 () Atomic restore: dropping original table (wp_posts)
+0002.736 () Atomic restore: renaming new table (x3_posts) to final table name (wp_posts)
+0002.776 () Skipping search/replace on GUID column in posts table
+0002.781 () Search and replacing table: wp_posts: rows: 58
+0002.798 () Processing table (InnoDB): wp_term_relationships - will restore as: x3_term_relationships
+0002.874 () Atomic restore: dropping original table (wp_term_relationships)
+0002.899 () Atomic restore: renaming new table (x3_term_relationships) to final table name (wp_term_relationships)
+0002.920 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0002.921 () Processing table (InnoDB): wp_term_taxonomy - will restore as: x3_term_taxonomy
+0002.997 () Atomic restore: dropping original table (wp_term_taxonomy)
+0003.015 () Atomic restore: renaming new table (x3_term_taxonomy) to final table name (wp_term_taxonomy)
+0003.036 () Search and replacing table: wp_term_taxonomy: rows: 2
+0003.041 () Processing table (InnoDB): wp_termmeta - will restore as: x3_termmeta
+0003.106 () Atomic restore: dropping original table (wp_termmeta)
+0003.118 () Atomic restore: renaming new table (x3_termmeta) to final table name (wp_termmeta)
+0003.143 () Search and replacing table: wp_termmeta: rows: 0
+0003.146 () Processing table (InnoDB): wp_terms - will restore as: x3_terms
+0003.241 () Atomic restore: dropping original table (wp_terms)
+0003.265 () Atomic restore: renaming new table (x3_terms) to final table name (wp_terms)
+0003.302 () Search and replacing table: wp_terms: rows: 2
+0003.306 () Processing table (InnoDB): wp_nfd_data_event_queue - will restore as: x3_nfd_data_event_queue
+0003.420 () Atomic restore: dropping original table (wp_nfd_data_event_queue)
+0003.431 () Atomic restore: renaming new table (x3_nfd_data_event_queue) to final table name (wp_nfd_data_event_queue)
+0003.489 () Search and replacing table: wp_nfd_data_event_queue: rows: 1
+0003.499 () Incomplete object detected in database: NewfoldLabs\WP\Module\Data\Event; Search and replace will be skipped for these entries
+0003.501 () Processing table (InnoDB): wp_sgs_log_events - will restore as: x3_sgs_log_events
+0003.867 () Atomic restore: dropping original table (wp_sgs_log_events)
+0003.876 () Atomic restore: renaming new table (x3_sgs_log_events) to final table name (wp_sgs_log_events)
+0003.911 () Search and replacing table: wp_sgs_log_events: rows: 1876
+0004.051 () Processing table (InnoDB): wp_sgs_log_visitors - will restore as: x3_sgs_log_visitors
+0004.151 () Atomic restore: dropping original table (wp_sgs_log_visitors)
+0004.159 () Database queries processed: 50 in 3.98 seconds
+0004.161 () Atomic restore: renaming new table (x3_sgs_log_visitors) to final table name (wp_sgs_log_visitors)
+0004.194 () Search and replacing table: wp_sgs_log_visitors: rows: 451
+0004.218 () Processing table (InnoDB): wp_yoast_indexable - will restore as: x3_yoast_indexable
+0004.391 () Atomic restore: dropping original table (wp_yoast_indexable)
+0004.400 () Atomic restore: renaming new table (x3_yoast_indexable) to final table name (wp_yoast_indexable)
+0004.433 () Search and replacing table: wp_yoast_indexable: rows: 22
+0004.514 () Processing table (InnoDB): wp_yoast_indexable_hierarchy - will restore as: x3_yoast_indexable_hierarchy
+0004.589 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0004.596 () Atomic restore: renaming new table (x3_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0004.614 () Search and replacing table: wp_yoast_indexable_hierarchy: rows: 20
+0004.622 () Processing table (InnoDB): wp_yoast_migrations - will restore as: x3_yoast_migrations
+0004.715 () Atomic restore: dropping original table (wp_yoast_migrations)
+0004.722 () Atomic restore: renaming new table (x3_yoast_migrations) to final table name (wp_yoast_migrations)
+0004.758 () Search and replacing table: wp_yoast_migrations: rows: 24
+0004.764 () Processing table (InnoDB): wp_yoast_primary_term - will restore as: x3_yoast_primary_term
+0004.901 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0004.908 () Atomic restore: renaming new table (x3_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0004.953 () Search and replacing table: wp_yoast_primary_term: rows: 0
+0004.958 () Processing table (InnoDB): wp_yoast_seo_links - will restore as: x3_yoast_seo_links
+0005.090 () Unlocking database and leaving maintenance mode
+0005.092 () Disabling Maintenance mode&#8230;
+0005.100 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0005.108 () Atomic restore: renaming new table (x3_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0005.156 () Search and replacing table: wp_yoast_seo_links: rows: 0
+0005.174 () Finished: lines processed: 66 in 5.00 seconds
+0005.183 () Cleaning up rubbish...
+0005.190 () Begin search and replace (updraftplus_restored_db)
+0005.193 () [Database-replace-site-url] Database: search and replace site URL
+0005.200 () Database search and replace: replace https://dyneam.com in backup dump with http://localhost:8080
+0005.205 () Database search and replace: replace http://www.dyneam.com in backup dump with http://localhost:8080
+0005.209 () Database search and replace: replace http://dyneam.com in backup dump with http://localhost:8080
+0005.212 () Database search and replace: replace https://www.dyneam.com in backup dump with http://localhost:8080
+0005.217 () Database search and replace: replace /home3/hpdlfqmy/public_html/dyneam in backup dump with /var/www/html
+0005.230 () Search and replacing table: wp_commentmeta: already done
+0005.234 () Search and replacing table: wp_comments: already done
+0005.237 () Search and replacing table: wp_links: already done
+0005.238 () Search and replacing table: wp_nfd_data_event_queue: already done
+0005.242 () Search and replacing table: wp_options: already done
+0005.249 () Search and replacing table: wp_postmeta: already done
+0005.252 () Search and replacing table: wp_posts: already done
+0005.254 () Search and replacing table: wp_sgs_log_events: already done
+0005.257 () Search and replacing table: wp_sgs_log_visitors: already done
+0005.262 () Search and replacing table: wp_term_relationships: already done
+0005.266 () Search and replacing table: wp_term_taxonomy: already done
+0005.269 () Search and replacing table: wp_termmeta: already done
+0005.275 () Search and replacing table: wp_terms: already done
+0005.278 () Search and replacing table: wp_usermeta: already done
+0005.283 () Search and replacing table: wp_users: already done
+0005.287 () Search and replacing table: wp_yoast_indexable: already done
+0005.292 () Search and replacing table: wp_yoast_indexable_hierarchy: already done
+0005.298 () Search and replacing table: wp_yoast_migrations: already done
+0005.301 () Search and replacing table: wp_yoast_primary_term: already done
+0005.306 () Search and replacing table: wp_yoast_seo_links: already done
+0005.350 () Entity: plugins
+0005.351 () restore_backup(backup_file=backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:32:"/var/www/html/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0005.354 () Unpacking backup... (backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-plugins.zip, 38.3 MB)
+0005.364 () Unzipping backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-plugins.zip to /var/www/html/wp-content/upgrade/b127be99/ using UpdraftPlus_ZipArchive, starting index 0
+0010.963 () Unzip progress: 1478 out of 10504 files (711 B, plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/TaskManagers/TaskManager.php)
+0019.010 () Unzip progress: 2479 out of 10504 files (8.2 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/DomainNotFoundException.php)
+0026.523 () Unzip progress: 3480 out of 10504 files (24.1 MB, plugins/updraftplus/includes/jstree/themes/default-dark/throbber.gif)
+0034.763 () Unzip progress: 4481 out of 10504 files (32.7 MB, plugins/advanced-custom-fields-pro/lang/acf-es_CO.po)
+0042.442 () Unzip progress: 5482 out of 10504 files (59.8 MB, plugins/sg-cachepress/assets/images/svg/arrow-left-thin.svg)
+0049.774 () Unzip progress: 6483 out of 10504 files (69.4 MB, plugins/safe-svg/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Trusted.txt)
+0058.050 () Unzip progress: 7484 out of 10504 files (91.7 MB, plugins/wpide/vendor/composer/installers/src/Composer/Installers/WinterInstaller.php)
+0066.241 () Unzip progress: 8485 out of 10504 files (101.2 MB, plugins/wordpress-seo/images/link-in-icon.svg)
+0073.420 () Unzip progress: 9486 out of 10504 files (105.3 MB, plugins/google-site-kit/third-party/google/apiclient-services/src/TagManager/ListWorkspacesResponse.php)
+0081.134 () Unzip progress: 10487 out of 10504 files (116.2 MB, plugins/google-site-kit/third-party/google/apiclient-services/src/GoogleAnalyticsAdmin/GoogleAnalyticsAdminV1betaFirebaseLink.php)
+0081.246 () Unzip progress: 10504 out of 10504 files (116.2 MB, plugins/google-site-kit/third-party/google/apiclient-services/src/GoogleAnalyticsAdmin/GoogleAnalyticsAdminV1alphaSearchAds360Link.php)
+0081.283 () Moving old data: filesystem method / updraft_dir is potentially possible
+0081.294 () Moving old data: can potentially use wp_filesystem method / -old
+0081.308 () Moving old data out of the way...
+0082.496 () Top-level entities being moved: index.php, akismet, updraftplus, hello.php
+0082.523 () Moving unpacked backup into place...
+0093.996 () Top-level entities being moved: wpide, index.php, custom-post-type-ui, akismet, sg-cachepress, bluehost-wordpress-plugin, post-type-switcher, gravityforms, advanced-custom-fields-pro, genesis-blocks, updraftplus, google-site-kit, hello.php, sg-security, safe-svg, wordpress-seo, migrate-guru
+0094.117 () Cleaning up rubbish...
+0094.158 () Entity: themes
+0094.162 () restore_backup(backup_file=backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-themes.zip, type=themes, info=a:3:{s:4:"path";s:31:"/var/www/html/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0094.168 () Unpacking backup... (backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-themes.zip, 22.2 MB)
+0094.189 () Unzipping backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-themes.zip to /var/www/html/wp-content/upgrade/392f0fd1/ using UpdraftPlus_ZipArchive, starting index 0
+0100.401 () Unzip progress: 706 out of 706 files (44.7 MB, themes/index.php)
+0100.423 () Moving old data: filesystem method / updraft_dir is potentially possible
+0100.427 () Moving old data: can potentially use wp_filesystem method / -old
+0100.429 () Moving old data out of the way...
+0101.055 () Top-level entities being moved: index.php, twentytwentyone, twentytwentytwo, twentytwentythree
+0101.065 () Moving unpacked backup into place...
+0101.836 () Top-level entities being moved: index.php, twentytwentyone, twentytwentytwo, genesis-block-theme, twentytwentythree, twentytwenty
+0101.850 () Cleaning up rubbish...
+0101.871 () Entity: uploads
+0101.872 () restore_backup(backup_file=backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:32:"/var/www/html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0101.873 () Unpacking backup... (backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-uploads.zip, 18.7 MB)
+0101.881 () Unzipping backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-uploads.zip to /var/www/html/wp-content/upgrade/487708ff/ using UpdraftPlus_ZipArchive, starting index 0
+0103.672 () Unzip progress: 167 out of 167 files (18.8 MB, uploads/2022/09/y.svg)
+0103.687 () Moving old data: filesystem method / updraft_dir is potentially possible
+0103.694 () Moving old data: can potentially use wp_filesystem method / -old
+0103.695 () Moving old data out of the way...
+0103.720 () Moving unpacked backup into place...
+0103.944 () Cleaning up rubbish...
+0103.958 () Entity: others
+0103.958 () restore_backup(backup_file=backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-others.zip, type=others, info=a:2:{s:4:"path";s:24:"/var/www/html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0103.959 () Unpacking backup... (backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-others.zip, 0 MB)
+0103.964 () Unzipping backup_2023-05-27-2340_DYNE_Asset_Management_5adcde733325-others.zip to /var/www/html/wp-content/upgrade/35d03f53/ using UpdraftPlus_ZipArchive, starting index 0
+0104.029 () Unzip progress: 4 out of 4 files (34.1 KB, mu-plugins/sso.php)
+0104.061 () Cleaning up rubbish...
+0104.409 () Restore successful!
+0104.414 () Restore successful
