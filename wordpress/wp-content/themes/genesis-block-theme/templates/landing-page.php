@@ -178,7 +178,7 @@ get_header(); ?>
 <div class="white_sections_divider"></div>
 
 <div class="section_normal" id="advisors">
-  <div class="section_title">Advisorsy Board</div>
+  <div class="section_title">Advisory Board</div>
   <div class="advisors">
     <?php $args = array( 'numberposts' => 10, 'post_type' => 'advisors',
     'order'=> 'ASC', 'meta_key' => 'last_name', 'orderby' => 'meta_value', );

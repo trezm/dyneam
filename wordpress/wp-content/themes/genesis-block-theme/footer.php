@@ -22,7 +22,7 @@
 
 	<div class="copyright">
 		<img src="/wp-content/uploads/2022/08/dyne_logo.svg"/>
-		<p>© 2022 DYNE Asset Management. All Rights Reserved.</p>
+		<p>© 2023 DYNE Maritime. All Rights Reserved.</p>
 	</div>
 
 </footer><!-- #colophon -->

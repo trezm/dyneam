@@ -33,31 +33,5 @@
 						<img src="/wp-content/uploads/2022/08/dyne_logo.svg"/>
 					</a>
 				</div>
-
-				<div class="menu_holder">
-					<div id="menu-toggle" class="menu_toggle">
-					  <div id="hamburger">
-					    <span></span>
-					    <span></span>
-					    <span></span>
-					  </div>
-					  <div id="cross">
-					    <span></span>
-					    <span></span>
-					  </div>
-						<div class="menu">
-							<div class="inner_menu">
-								<a href="#about">About</a>
-								<a href="#news">News</a>
-								<a href="#team">Our Team</a>
-								<a href="#advisors">Advisors</a>
-								<a href="#featured-investment">Featured Investment</a>
-								<a href="mailto:lockwood@dyne.com">Contact</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
 			</div>
 		</header><!-- .site-header -->
