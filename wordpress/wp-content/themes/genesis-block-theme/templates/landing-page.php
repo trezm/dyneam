@@ -27,19 +27,25 @@ get_header(); ?>
   <div class="images_and_descriptions_container">
     <div class="image_and_description">
       <div class="image_mask">
-        <img src="/wp-content/uploads/2023/09/landing-mission-1.jpg" />
+        <img
+          src="/wp-content/uploads/2023/09/landing-mission-1-e1696013426907.jpg"
+        />
       </div>
       <p>Trade & Transportation</p>
     </div>
     <div class="image_and_description">
       <div class="image_mask">
-        <img src="/wp-content/uploads/2023/09/landing-mission-2.jpg" />
+        <img
+          src="/wp-content/uploads/2023/09/landing-mission-2-e1696013400955.jpg"
+        />
       </div>
       <p>Natural Resources</p>
     </div>
     <div class="image_and_description">
       <div class="image_mask">
-        <img src="/wp-content/uploads/2023/09/landing-mission-3.png" />
+        <img
+          src="/wp-content/uploads/2023/09/landing-mission-3-e1696013459471.png"
+        />
       </div>
       <p>Freedom of Navigation</p>
     </div>
