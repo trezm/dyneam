@@ -63,18 +63,15 @@ get_header(); ?>
           src="<?php echo get_the_post_thumbnail_url($team_member->ID); ?>"
         />
       </div>
-      <div class="team_member_info">
+      <div
+        class="team_member_info"
+        data-popup="<?php echo $team_member->post_name; ?>"
+      >
         <div class="team_member_name">
           <?php echo $team_member->post_title; ?>
         </div>
-        <div class="team_member_bio_excerpt">
-          <?php echo wp_trim_words( $team_member->post_content, 30, '.' ); ?>
-          <div
-            class="read_more"
-            data-popup="<?php echo $team_member->post_name; ?>"
-          >
-            READ MORE
-          </div>
+        <div class="team_member_title">
+          <?php echo $team_member->team_member_title; ?>
         </div>
         <?php if (get_field('linkedin_url', $team_member->ID)) { ?>
         <div class="team_member_linkedin">
@@ -253,61 +250,64 @@ get_header(); ?>
 
 <!-- END PEOPLE -->
 
-<!-- <section> -->
-<div class="periodic_table_section" id="about">
-  <div class="periodic_table">
-    <div class="definition">
-      <p>DYNE</p>
-      <p>/dīn/ <italic>noun</italic></p>
-      <p>
-        <strong>: a unit of force</strong>; also represents four critical rare
-        earth elements <italic>(CREE)</italic>:
-      </p>
-    </div>
+<!-- <\!-- <section> -\-> -->
+<!-- <div class="periodic_table_section" id="about"> -->
+<!--   <div class="periodic_table"> -->
+<!--     <div class="definition"> -->
+<!--       <p>DYNE</p> -->
+<!--       <p>/dīn/ <italic>noun</italic></p> -->
+<!--       <p> -->
+<!--         <strong>: a unit of force</strong>; also represents four critical rare -->
+<!--         earth elements <italic>(CREE)</italic>: -->
+<!--       </p> -->
+<!--     </div> -->
 
-    <div class="symbols">
-      <div class="symbol">
-        <img src="/wp-content/uploads/2022/09/dy.svg" />
-      </div>
-      <div class="symbol">
-        <img src="/wp-content/uploads/2022/09/y.svg" />
-      </div>
-      <div class="symbol">
-        <img src="/wp-content/uploads/2022/08/nd.svg" />
-      </div>
-      <div class="symbol">
-        <img src="/wp-content/uploads/2022/08/eu.svg" />
-      </div>
+<!--     <div class="symbols"> -->
+<!--       <div class="symbol"> -->
+<!--         <img src="/wp-content/uploads/2022/09/dy.svg" /> -->
+<!--       </div> -->
+<!--       <div class="symbol"> -->
+<!--         <img src="/wp-content/uploads/2022/09/y.svg" /> -->
+<!--       </div> -->
+<!--       <div class="symbol"> -->
+<!--         <img src="/wp-content/uploads/2022/08/nd.svg" /> -->
+<!--       </div> -->
+<!--       <div class="symbol"> -->
+<!--         <img src="/wp-content/uploads/2022/08/eu.svg" /> -->
+<!--       </div> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- <\!-- </section> -\-> -->
+
+<div class="quote_section">
+  <div class="quote">
+    <div class="text">
+      The DYNE Maritime team has a history of backing critical dual use
+      technologies.
     </div>
+    <!-- <div class="author">Sir John Monash</div> -->
   </div>
 </div>
-<!-- </section> -->
 
 <div class="ticker_holder" id="news">
   <div class="left_disappear"></div>
   <div class="right_disappear"></div>
   <div class="ticker">
-    <?php $args = array( 'numberposts' => 10, 'post_type' => 'news' ); $news =
-    get_posts( $args ); foreach ($news as $post) { ?>
+    <?php $args = array( 'numberposts' => 10, 'post_type' => 'investments' );
+    $investments = get_posts( $args ); foreach ($investments as $post) { ?>
     <div class="post">
-      <a href="<?php echo get_field('url', $post->ID); ?>" target="_blank">
-        <div class="post_url">
-          <?php echo get_field('news_outlet', $post->ID); ?>
+      <a
+        href="<?php echo get_field('investment_website', $post->ID); ?>"
+        target="_blank"
+      >
+        <div class="post_logo">
+          <?php echo get_field('investment_logo', $post->ID); ?>
         </div>
         <div class="post_title"><?php echo $post->post_title; ?></div>
       </a>
     </div>
     <?php } ?>
-  </div>
-</div>
-
-<div class="quote_section">
-  <div class="quote">
-    <div class="text">
-      “Equip yourself for life, not solely for your own benefit, but for the
-      benefit of the whole community”
-    </div>
-    <div class="author">Sir John Monash</div>
   </div>
 </div>
 
