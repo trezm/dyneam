@@ -511,3 +511,9 @@ function genesis_block_theme_is_block_editor() {
 	// This is a Gutenberg Block Editor page.
 	return true;
 }
+
+/** Disable max login attempts */
+add_action( 'init', 'remove_unsuccessfull_attempts_block' );
+function remove_unsuccessfull_attempts_block() {
+    update_option( 'sg_security_unsuccessful_login', array() );
+}

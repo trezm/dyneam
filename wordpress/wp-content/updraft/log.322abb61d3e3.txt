@@ -1,0 +1,349 @@
+0000.001 (0) Opened log file at time: Thu, 26 Oct 2023 14:42:38 +0000 on http://localhost:8080
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.3.1 PHP: 8.0.30 (apache2handler, Linux 6dab1e51db09 6.3.13-linuxkit #1 SMP PREEMPT_DYNAMIC Thu Sep  7 07:54:49 UTC 2023 x86_64) MySQL: 5.7.43 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.56 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.2M | 10M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 315953.5 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.014 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2023-10-26 14:42:38
+0000.021 (0) Semaphore lock (fd) complete
+0000.025 (0) Backup run: resumption=0, nonce=322abb61d3e3, file_nonce=322abb61d3e3 begun at=1698331358 (0s ago), job type=backup
+0000.027 (0) Scheduling a resumption (1) after 300 seconds (1698331658) in case this run gets aborted
+0000.053 (0) Checking if we have a zip executable available
+0000.055 (0) Creation of backups of directories: beginning
+0000.063 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0002.807 (0) Total entities for the zip file: 1477 directories, 9027 files (0 skipped as non-modified), 116.2 MB
+0002.812 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.856 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 100 files added (on-disk size: 263.1 KB)
+0003.888 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 200 files added (on-disk size: 263.1 KB)
+0003.922 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 300 files added (on-disk size: 263.1 KB)
+0003.954 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 400 files added (on-disk size: 263.1 KB)
+0003.989 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 500 files added (on-disk size: 263.1 KB)
+0004.026 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 600 files added (on-disk size: 263.1 KB)
+0004.058 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 700 files added (on-disk size: 263.1 KB)
+0004.091 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 800 files added (on-disk size: 263.1 KB)
+0004.124 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 900 files added (on-disk size: 263.1 KB)
+0004.159 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1000 files added (on-disk size: 263.1 KB)
+0004.161 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.2 MB, 9027 files batched, 1001 (1002) added so far); re-opening (prior size: 263.1 KB)
+0006.748 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1100 files added (on-disk size: 6379.5 KB)
+0006.780 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1200 files added (on-disk size: 6379.5 KB)
+0006.815 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1300 files added (on-disk size: 6379.5 KB)
+0006.848 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1400 files added (on-disk size: 6379.5 KB)
+0006.906 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1500 files added (on-disk size: 6379.5 KB)
+0006.941 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1600 files added (on-disk size: 6379.5 KB)
+0006.973 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1700 files added (on-disk size: 6379.5 KB)
+0007.006 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1800 files added (on-disk size: 6379.5 KB)
+0007.038 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 1900 files added (on-disk size: 6379.5 KB)
+0007.069 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2000 files added (on-disk size: 6379.5 KB)
+0007.071 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.9 MB, 9027 files batched, 1001 (2003) added so far); re-opening (prior size: 6379.5 KB)
+0009.141 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2100 files added (on-disk size: 7998.5 KB)
+0009.173 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2200 files added (on-disk size: 7998.5 KB)
+0009.206 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2300 files added (on-disk size: 7998.5 KB)
+0009.242 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2400 files added (on-disk size: 7998.5 KB)
+0009.276 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2500 files added (on-disk size: 7998.5 KB)
+0009.316 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2600 files added (on-disk size: 7998.5 KB)
+0009.350 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2700 files added (on-disk size: 7998.5 KB)
+0009.390 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2800 files added (on-disk size: 7998.5 KB)
+0009.426 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 2900 files added (on-disk size: 7998.5 KB)
+0009.458 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3000 files added (on-disk size: 7998.5 KB)
+0009.460 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.2 MB, 9027 files batched, 1001 (3004) added so far); re-opening (prior size: 7998.5 KB)
+0012.159 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3100 files added (on-disk size: 13534.9 KB)
+0012.198 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3200 files added (on-disk size: 13534.9 KB)
+0012.238 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3300 files added (on-disk size: 13534.9 KB)
+0012.279 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3400 files added (on-disk size: 13534.9 KB)
+0012.316 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3500 files added (on-disk size: 13534.9 KB)
+0012.349 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3600 files added (on-disk size: 13534.9 KB)
+0012.386 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3700 files added (on-disk size: 13534.9 KB)
+0012.411 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3800 files added (on-disk size: 13534.9 KB)
+0012.435 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.tmp: 3900 files added (on-disk size: 13534.9 KB)
+0012.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (24.3 MB, 943 (3947) files added so far); last ratio: 0.4415; re-opening (prior size: 13534.9 KB)
+0016.205 (0) Zip size is at/near split limit (20.5 MB / 25 MB) - bumping index (from: 0)
+0016.406 (0) Creating zip file manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.list-temp.tmp)
+0016.938 (0) Successfully created zip file manifest (size: 325725)
+0016.940 (0) Created plugins zip (0) - 20973.1 KB in 16.1 s (1299.6 KB/s) (checksums: sha1: d94e3eb1663e33ef1edadf89c633d54a1d3d2a2c, sha256: 95c4bda6f198a97e90bf08598366194773e51a0e23bbbd6d0e75fe9c8c9914c6)
+0016.949 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.952 (0) No remote despatch: user chose no remote backup service
+0016.953 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip
+0016.954 (0) Deleting zip manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip.list.tmp)
+0016.956 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0016.979 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0017.017 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0017.056 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0017.095 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0017.129 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0017.160 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0017.196 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0017.227 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0017.252 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0017.271 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 9027 files batched, 920 (4867) added so far); re-opening (prior size: 0 KB)
+0020.301 (0) A useful amount of data was added after this amount of zip processing: 5.1 s (normalised: 5.1 s, rate: 5029.8 KB/s)
+0020.302 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=5.0897018909454, normalised_time=5.0896222879357, max_time=20.301719903946, data points known=1, max_bytes=26214400)
+0020.321 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 4900 files added (on-disk size: 6989.4 KB)
+0020.343 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5000 files added (on-disk size: 6989.4 KB)
+0020.367 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5100 files added (on-disk size: 6989.4 KB)
+0020.388 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5200 files added (on-disk size: 6989.4 KB)
+0020.411 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5300 files added (on-disk size: 6989.4 KB)
+0020.443 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5400 files added (on-disk size: 6989.4 KB)
+0020.481 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5500 files added (on-disk size: 6989.4 KB)
+0020.517 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5600 files added (on-disk size: 6989.4 KB)
+0020.554 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5700 files added (on-disk size: 6989.4 KB)
+0020.587 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5800 files added (on-disk size: 6989.4 KB)
+0020.611 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.3 MB, 9027 files batched, 1001 (5868) added so far); re-opening (prior size: 6989.4 KB)
+0022.866 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 5900 files added (on-disk size: 10253.3 KB)
+0022.896 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6000 files added (on-disk size: 10253.3 KB)
+0022.927 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6100 files added (on-disk size: 10253.3 KB)
+0022.959 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6200 files added (on-disk size: 10253.3 KB)
+0022.982 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6300 files added (on-disk size: 10253.3 KB)
+0023.014 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6400 files added (on-disk size: 10253.3 KB)
+0023.048 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6500 files added (on-disk size: 10253.3 KB)
+0023.083 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6600 files added (on-disk size: 10253.3 KB)
+0023.119 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6700 files added (on-disk size: 10253.3 KB)
+0023.154 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6800 files added (on-disk size: 10253.3 KB)
+0023.179 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.9 MB, 9027 files batched, 1001 (6869) added so far); re-opening (prior size: 10253.3 KB)
+0025.455 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 6900 files added (on-disk size: 11625.5 KB)
+0025.488 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7000 files added (on-disk size: 11625.5 KB)
+0025.511 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7100 files added (on-disk size: 11625.5 KB)
+0025.544 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7200 files added (on-disk size: 11625.5 KB)
+0025.578 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7300 files added (on-disk size: 11625.5 KB)
+0025.610 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7400 files added (on-disk size: 11625.5 KB)
+0025.645 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7500 files added (on-disk size: 11625.5 KB)
+0025.678 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7600 files added (on-disk size: 11625.5 KB)
+0025.707 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7700 files added (on-disk size: 11625.5 KB)
+0025.729 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7800 files added (on-disk size: 11625.5 KB)
+0025.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.9 MB, 9027 files batched, 1001 (7870) added so far); re-opening (prior size: 11625.5 KB)
+0027.869 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 7900 files added (on-disk size: 13551.2 KB)
+0027.902 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8000 files added (on-disk size: 13551.2 KB)
+0027.935 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8100 files added (on-disk size: 13551.2 KB)
+0027.973 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8200 files added (on-disk size: 13551.2 KB)
+0028.007 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8300 files added (on-disk size: 13551.2 KB)
+0028.043 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8400 files added (on-disk size: 13551.2 KB)
+0028.066 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8500 files added (on-disk size: 13551.2 KB)
+0028.097 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8600 files added (on-disk size: 13551.2 KB)
+0028.121 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8700 files added (on-disk size: 13551.2 KB)
+0028.146 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8800 files added (on-disk size: 13551.2 KB)
+0028.212 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.3 MB, 9027 files batched, 1001 (8871) added so far); re-opening (prior size: 13551.2 KB)
+0031.242 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 8900 files added (on-disk size: 16713.9 KB)
+0031.282 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.tmp: 9000 files added (on-disk size: 16713.9 KB)
+0032.646 (0) Creating zip file manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.list-temp.tmp)
+0033.812 (0) Successfully created zip file manifest (size: 473894)
+0033.954 (0) Created plugins zip (1) - 17608.9 KB in 17 s (1035.1 KB/s) (sha1: 50aa6958813911d4136a651d9358618c5722ba4f, sha256: ea6d122e26e8a9994f354eae1a4449a2d9de53f8892ea897d34e5172620f2262)
+0033.967 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0033.968 (0) No remote despatch: user chose no remote backup service
+0033.970 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip
+0033.971 (0) Deleting zip manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip.list.tmp)
+0033.973 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0033.977 (0) Beginning creation of dump of themes (split every: 25 MB)
+0034.132 (0) Total entities for the zip file: 113 directories, 593 files (0 skipped as non-modified), 44.7 MB
+0034.152 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.178 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0034.198 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0034.220 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0034.226 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 593 files batched, 425 (425) added so far); re-opening (prior size: 0 KB)
+0036.843 (0) A useful amount of data was added after this amount of zip processing: 3.6 s (normalised: 3.6 s, rate: 7055.4 KB/s)
+0036.846 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.6318330764771, normalised_time=3.6284166256877, max_time=36.845129966736, data points known=1, max_bytes=26214400)
+0036.877 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip.tmp: 500 files added (on-disk size: 14216.7 KB)
+0036.892 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (18.3 MB, 117 (542) files added so far); last ratio: 0.5548; re-opening (prior size: 14216.7 KB)
+0039.493 (0) Zip size is at/near split limit (21.3 MB / 25 MB) - bumping index (from: 0)
+0039.671 (0) Creating zip file manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip.list-temp.tmp)
+0039.811 (0) Successfully created zip file manifest (size: 38529)
+0039.814 (0) Created themes zip (0) - 21778.8 KB in 5.5 s (3950.3 KB/s) (checksums: sha1: 35595d2e823dee9e30af6a6467b928b79c9e9999, sha256: b0da717efe91da532b7565db73d108f9fb46fb81d426c7aee7a309f8e2c808e7)
+0039.824 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0039.825 (0) No remote despatch: user chose no remote backup service
+0039.826 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip
+0039.828 (0) Deleting zip manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip.list.tmp)
+0039.829 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0040.005 (0) Creating zip file manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes2.zip.list-temp.tmp)
+0040.024 (0) Successfully created zip file manifest (size: 3250)
+0040.040 (0) Created themes zip (1) - 801.8 KB in 0.2 s (3588.7 KB/s) (sha1: 3004d0891816529c23f79e3a633cc2d90dc1deea, sha256: 91f32f0f26eb16f0749e5f58bb80eb51b05eb80c6621584b66355bf67352ba93)
+0040.048 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0040.049 (0) No remote despatch: user chose no remote backup service
+0040.051 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes2.zip
+0040.053 (0) Deleting zip manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes2.zip.list.tmp)
+0040.055 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0040.060 (0) Exclusion option setting (uploads): 
+0040.061 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0040.063 (0) finding files: wpide: adding to list (1)
+0040.064 (0) finding files: 2022: adding to list (2)
+0040.065 (0) finding files: 2023: adding to list (3)
+0040.067 (0) finding files: siteground-optimizer-assets: adding to list (4)
+0040.068 (0) finding files: .htaccess: adding to list (5)
+0040.069 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0040.149 (0) Total entities for the zip file: 24 directories, 224 files (0 skipped as non-modified), 30.3 MB
+0040.188 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0040.206 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 224 files batched, 186 (186) added so far); re-opening (prior size: 0 KB)
+0042.079 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.9 s, rate: 8956.6 KB/s)
+0042.081 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.8678810596466, normalised_time=2.8582286067163, max_time=42.08025598526, data points known=1, max_bytes=26214400)
+0042.088 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (0.2 MB, 2 (188) files added so far); last ratio: 0.995; re-opening (prior size: 25559.2 KB)
+0043.785 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 0)
+0043.993 (0) Creating zip file manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads.zip.list-temp.tmp)
+0044.040 (0) Successfully created zip file manifest (size: 10709)
+0044.043 (0) Created uploads zip (0) - 25724 KB in 3.7 s (6929.9 KB/s) (checksums: sha1: 25904befbc26324a0326c59e44680906774d772c, sha256: 4d2760fa4ecba8736399d85f874c7821e5bfef125cad96deb1404cae8ddacceb)
+0044.052 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0044.054 (0) No remote despatch: user chose no remote backup service
+0044.055 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads.zip
+0044.058 (0) Deleting zip manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads.zip.list.tmp)
+0044.059 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0044.066 (0) Zip: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads2.zip.tmp: 200 files added (on-disk size: 0 KB)
+0044.444 (0) Creating zip file manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads2.zip.list-temp.tmp)
+0044.456 (0) Successfully created zip file manifest (size: 2581)
+0044.504 (0) Created uploads zip (1) - 5214.2 KB in 0.5 s (11352.5 KB/s) (sha1: 256539e89d9f404bc2670aa170286c94bacb34a8, sha256: a080bc52f1020bc118393703e4ba6a9b0ad1ef665e0211f971ca85179a3fcf39)
+0044.512 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0044.513 (0) No remote despatch: user chose no remote backup service
+0044.514 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads2.zip
+0044.517 (0) Deleting zip manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads2.zip.list.tmp)
+0044.519 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0044.525 (0) Beginning backup of other directories found in the content directory (index: 0)
+0044.526 (0) Exclusion option setting (others): 
+0044.527 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0044.529 (0) finding files: upgrade: adding to list (1)
+0044.531 (0) finding files: index.php: adding to list (2)
+0044.532 (0) finding files: fatal-error-handler.php: adding to list (3)
+0044.533 (0) finding files: plugins: skipping: this is the plugins directory
+0044.535 (0) finding files: uploads: skipping: this is the uploads directory
+0044.536 (0) finding files: updraft: skipping: this is the updraft directory
+0044.537 (0) finding files: themes: skipping: this is the themes directory
+0044.538 (0) finding files: mu-plugins: adding to list (4)
+0044.549 (0) Total entities for the zip file: 2 directories, 3 files (0 skipped as non-modified), 0 MB
+0044.567 (0) Creating zip file manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-others.zip.list-temp.tmp)
+0044.571 (0) Successfully created zip file manifest (size: 106)
+0044.581 (0) Created others zip (0) - 6.6 KB in 0 s (194 KB/s) (sha1: f7d7e6a4c041e935cf650ce50e4c74ea3dbfe690, sha256: 75998b5e9c8db4def6ea6fe19fe9d7e11689cdaed32cd001b97dc59624c7851c)
+0044.586 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0044.587 (0) No remote despatch: user chose no remote backup service
+0044.588 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-others.zip
+0044.591 (0) Deleting zip manifest (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-others.zip.list.tmp)
+0044.593 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0044.600 (0) Saving backup status to database (elements: 11)
+0044.602 (0) Beginning creation of database dump (WordPress DB)
+0044.604 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0044.637 (0) Table wp_options: Total expected rows (via COUNT): 533
+0044.691 (0) Table wp_options: Rows added in this batch (next record: 41415): 511 (uncompressed bytes in this segment=1288259) in 0.06 seconds
+0044.700 (0) Table wp_options: finishing file(s) (2, 283.9 KB)
+0044.705 (0) Table wp_users: Total expected rows (via COUNT): 2
+0044.707 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.711 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1515) in 0.01 seconds
+0044.718 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0044.723 (0) Table wp_usermeta: Total expected rows (via COUNT): 81
+0044.724 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.727 (0) Table wp_usermeta: Rows added in this batch (next record: 130): 81 (uncompressed bytes in this segment=7192) in 0.01 seconds
+0044.736 (0) Table wp_usermeta: finishing file(s) (2, 3.3 KB)
+0044.747 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0044.749 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0044.756 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0044.761 (0) Table wp_comments: Total expected rows (via COUNT): 9
+0044.762 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.766 (0) Table wp_comments: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=6889) in 0.01 seconds
+0044.772 (0) Table wp_comments: finishing file(s) (2, 2.7 KB)
+0044.780 (0) Table wp_links: Total expected rows (via COUNT): 0
+0044.783 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0044.789 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0044.795 (0) Table wp_postmeta: Total expected rows (via COUNT): 386
+0044.796 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.802 (0) Table wp_postmeta: Rows added in this batch (next record: 409): 386 (uncompressed bytes in this segment=84602) in 0.01 seconds
+0044.811 (0) Table wp_postmeta: finishing file(s) (2, 9.5 KB)
+0044.817 (0) Table wp_posts: Total expected rows (via COUNT): 97
+0044.819 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.825 (0) Table wp_posts: Rows added in this batch (next record: 110): 97 (uncompressed bytes in this segment=56018) in 0.01 seconds
+0044.832 (0) Table wp_posts: finishing file(s) (2, 14.3 KB)
+0044.837 (0) Table wp_term_relationships: Total expected rows (approximate): 2
+0044.839 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 2 (uncompressed bytes in this segment=715) in 0.00 seconds
+0044.846 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0044.853 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0044.855 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.859 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=957) in 0.01 seconds
+0044.871 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0044.881 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0044.884 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0044.891 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0044.896 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0044.897 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.900 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=791) in 0.01 seconds
+0044.907 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0044.923 (0) Table wp_nfd_data_event_queue: Total expected rows (via COUNT): 1
+0044.925 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.929 (0) Table wp_nfd_data_event_queue: Rows added in this batch (next record: 32): 1 (uncompressed bytes in this segment=1493) in 0.01 seconds
+0044.942 (0) Table wp_nfd_data_event_queue: finishing file(s) (2, 0.8 KB)
+0044.953 (0) Table wp_sgs_log_events: Total expected rows (approximate): 1883
+0044.988 (0) Table wp_sgs_log_events: Rows added in this batch (next record: 27759): 1999 (uncompressed bytes in this segment=329906) in 0.04 seconds
+0044.994 (0) Table wp_sgs_log_events: finishing file(s) (2, 35.6 KB)
+0044.998 (0) Table wp_sgs_log_visitors: Total expected rows (via COUNT): 452
+0044.999 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.004 (0) Table wp_sgs_log_visitors: Rows added in this batch (next record: 4123): 452 (uncompressed bytes in this segment=16709) in 0.01 seconds
+0045.016 (0) Table wp_sgs_log_visitors: finishing file(s) (2, 4.6 KB)
+0045.033 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 39
+0045.035 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.043 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 74): 39 (uncompressed bytes in this segment=28457) in 0.02 seconds
+0045.057 (0) Table wp_yoast_indexable: finishing file(s) (2, 5.2 KB)
+0045.067 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 37
+0045.070 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 37 (uncompressed bytes in this segment=1389) in 0.01 seconds
+0045.078 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0045.088 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0045.090 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.093 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1265) in 0.01 seconds
+0045.102 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0045.115 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0045.118 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.01 seconds
+0045.126 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0045.133 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 0
+0045.136 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=981) in 0.00 seconds
+0045.147 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0045.150 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0045.159 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_options.table.tmpr41416.gz (1/20/fopen): adding to final database dump
+0045.433 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_options.table.gz (2/20/fopen): adding to final database dump
+0045.435 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_users.table.tmpr3.gz (3/20/fopen): adding to final database dump
+0045.436 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_users.table.gz (4/20/fopen): adding to final database dump
+0045.437 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_usermeta.table.tmpr131.gz (5/20/fopen): adding to final database dump
+0045.440 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_usermeta.table.gz (6/20/fopen): adding to final database dump
+0045.441 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_commentmeta.table.tmpr0.gz (7/20/fopen): adding to final database dump
+0045.443 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_commentmeta.table.gz (8/20/fopen): adding to final database dump
+0045.444 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_comments.table.tmpr10.gz (9/20/fopen): adding to final database dump
+0045.446 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_comments.table.gz (10/20/fopen): adding to final database dump
+0045.446 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_links.table.tmpr0.gz (11/20/fopen): adding to final database dump
+0045.448 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_links.table.gz (12/20/fopen): adding to final database dump
+0045.449 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_postmeta.table.tmpr410.gz (13/20/fopen): adding to final database dump
+0045.455 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_postmeta.table.gz (14/20/fopen): adding to final database dump
+0045.455 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_posts.table.tmpr111.gz (15/20/fopen): adding to final database dump
+0045.465 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_posts.table.gz (16/20/fopen): adding to final database dump
+0045.467 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_term_relationships.table.tmpr100001.gz (17/20/fopen): adding to final database dump
+0045.469 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_term_relationships.table.gz (18/20/fopen): adding to final database dump
+0045.470 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_term_taxonomy.table.tmpr3.gz (19/20/fopen): adding to final database dump
+0045.472 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_term_taxonomy.table.gz (20/20/fopen): adding to final database dump
+0045.473 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_termmeta.table.tmpr0.gz (21/20/fopen): adding to final database dump
+0045.475 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_termmeta.table.gz (22/20/fopen): adding to final database dump
+0045.476 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_terms.table.tmpr3.gz (23/20/fopen): adding to final database dump
+0045.477 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_terms.table.gz (24/20/fopen): adding to final database dump
+0045.478 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_nfd_data_event_queue.table.tmpr33.gz (25/20/fopen): adding to final database dump
+0045.480 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_nfd_data_event_queue.table.gz (26/20/fopen): adding to final database dump
+0045.481 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_sgs_log_events.table.tmpr27760.gz (27/20/fopen): adding to final database dump
+0045.499 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_sgs_log_events.table.gz (28/20/fopen): adding to final database dump
+0045.501 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_sgs_log_visitors.table.tmpr4124.gz (29/20/fopen): adding to final database dump
+0045.503 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_sgs_log_visitors.table.gz (30/20/fopen): adding to final database dump
+0045.504 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_indexable.table.tmpr75.gz (31/20/fopen): adding to final database dump
+0045.507 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_indexable.table.gz (32/20/fopen): adding to final database dump
+0045.508 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (33/20/fopen): adding to final database dump
+0045.510 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_indexable_hierarchy.table.gz (34/20/fopen): adding to final database dump
+0045.511 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_migrations.table.tmpr25.gz (35/20/fopen): adding to final database dump
+0045.513 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_migrations.table.gz (36/20/fopen): adding to final database dump
+0045.514 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_primary_term.table.tmpr0.gz (37/20/fopen): adding to final database dump
+0045.516 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_primary_term.table.gz (38/20/fopen): adding to final database dump
+0045.517 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_seo_links.table.tmpr0.gz (39/20/fopen): adding to final database dump
+0045.518 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db-table-wp_yoast_seo_links.table.gz (40/20/fopen): adding to final database dump
+0045.530 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db.gz: finished writing out complete database file (365.2 KB)
+0045.549 (0) Total database tables backed up: 20 (backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db.gz, size: 374088, sha1: c5523b63f69de82894bfc5d102f898c433f54d43, sha256: 73908eb03ee957b3f951b96bd164685c7fd3bc8aa560b5ef0173039f934fbf66)
+0045.557 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins.zip: plugins: This file has already been successfully uploaded
+0045.559 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-plugins2.zip: plugins: This file has already been successfully uploaded
+0045.561 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes.zip: themes: This file has already been successfully uploaded
+0045.564 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-themes2.zip: themes: This file has already been successfully uploaded
+0045.566 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads.zip: uploads: This file has already been successfully uploaded
+0045.568 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-uploads2.zip: uploads: This file has already been successfully uploaded
+0045.570 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-others.zip: others: This file has already been successfully uploaded
+0045.572 (0) backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0045.574 (0) Saving backup history. Total backup size: 90.3 MB
+0045.578 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0045.581 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0045.583 (0) No remote despatch: user chose no remote backup service
+0045.584 (0) Recording as successfully uploaded: backup_2023-10-26-1442_DYNE_Maritime_322abb61d3e3-db.gz
+0045.586 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0045.587 (0) Resume backup (322abb61d3e3, 0): finish run
+0045.590 (0) Decremented the semaphore (fd) by 1
+0045.592 (0) Semaphore (fd) unlocked
+0045.593 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0045.597 (0) No email will/can be sent - the user has not configured an email address.
+0045.598 (0) The backup apparently succeeded and is now complete

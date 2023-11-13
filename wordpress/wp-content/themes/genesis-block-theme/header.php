@@ -33,5 +33,24 @@
 						<img src="/wp-content/uploads/2022/08/dyne_logo.svg"/>
 					</a>
 				</div>
+                <div class="menu_holder">
+					<div id="menu-toggle" class="menu_toggle">
+					  <div id="hamburger">
+					    <span></span>
+					    <span></span>
+					    <span></span>
+					  </div>
+					  <div id="cross">
+					    <span></span>
+					    <span></span>
+					  </div>
+						<div class="menu">
+							<div class="inner_menu">
+								<a href="/">Home</a>
+								<a href="/blog/">Blog</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</header><!-- .site-header -->

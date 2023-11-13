@@ -15,7 +15,7 @@
 <footer id="colophon">
 
 	<div class="contact_button">
-		<a href="mailto:lockwood@dyne.com">
+		<a href="mailto:contact@dyneam.com">
 		<span>CONTACT</span>
 	</a>
 	</div>
